@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e0e0e;
+}
+.container {
+  position: relative;
+  width: 13rem;
+  height: 18rem;
+}
+.Bird {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  object-fit: cover;
+}
+.title {
+  margin: 0;
+  color: #0e0e0e;
+  text-align: center;
+  position: absolute;
+  z-index: 9;
+  top: 3%;
+  left: 23%;
+  font-weight: 700;
+}
